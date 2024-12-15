@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Echoir</string>
+    <!-- Country names array -->
+    <string-array name="region_country_names">
+        <item>アルバニア</item>
+        <item>アルゼンチン</item>
+        <item>オーストラリア</item>
+        <item>オーストリア</item>
+        <item>ベルギー</item>
+        <item>ブラジル (推奨)</item>
+        <item>カナダ</item>
+        <item>チリ</item>
+        <item>コロンビア</item>
+        <item>ドミニカ共和国</item>
+        <item>フランス</item>
+        <item>ドイツ</item>
+        <item>香港</item>
+        <item>イスラエル</item>
+        <item>イタリア</item>
+        <item>ジャマイカ</item>
+        <item>マレーシア</item>
+        <item>メキシコ</item>
+        <item>ニュージーランド</item>
+        <item>ナイジェリア</item>
+        <item>ペルー</item>
+        <item>プエルトリコ</item>
+        <item>シンガポール</item>
+        <item>南アフリカ</item>
+        <item>スペイン</item>
+        <item>タイ</item>
+        <item>ウガンダ</item>
+        <item>アラブ首長国連邦</item>
+        <item>イギリス</item>
+        <item>アメリカ</item>
+    </string-array>
+    <!-- Navigation -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_search">検索</string>
+    <string name="nav_details">詳細</string>
+    <!-- Content Descriptions -->
+    <string name="cd_back_button">戻る</string>
+    <string name="cd_error">エラー</string>
+    <string name="cd_search">検索</string>
+    <string name="cd_clear_search">検索を消去</string>
+    <string name="cd_filter_button">フィルターの結果</string>
+    <string name="cd_download_button">ダウンロードオプション</string>
+    <string name="cd_download_option">ダウンロードオプション: %s</string>
+    <string name="cd_info_button">AAC の音質に関する情報</string>
+    <string name="cd_explicit_content">露骨なコンテンツ</string>
+    <string name="cd_dolby_atmos">Dolby Atmos 対応</string>
+    <string name="cd_track_image">トラックのアートワーク</string>
+    <string name="cd_filter_quality">音質フィルターのオプション</string>
+    <string name="cd_filter_content">コンテンツフィルターのオプション</string>
+    <!-- Labels -->
+    <string name="label_explicit">Explicit</string>
+    <string name="label_dolby_atmos">Dolby Atmos</string>
+    <string name="label_dolby">Dolby</string>
+    <string name="label_aac">AAC</string>
+    <string name="label_tracks">トラック</string>
+    <string name="label_albums">アルバム</string>
+    <string name="label_clean">消去</string>
+    <string name="label_unknown">不明</string>
+    <string name="label_queued">キュー</string>
+    <!-- Titles -->
+    <string name="title_active_downloads">有効なダウンロード</string>
+    <string name="title_download_history">ダウンロード履歴</string>
+    <string name="title_file_naming_format">ファイル名の形式</string>
+    <string name="title_region">リージョン</string>
+    <string name="title_storage">ストレージ</string>
+    <string name="title_data">データ</string>
+    <string name="title_about">アプリについて</string>
+    <string name="title_quality">音質</string>
+    <string name="title_content">コンテンツ</string>
+    <string name="title_panda">Made with hate</string>
+    <string name="title_telegram_channel">Telegram チャンネル</string>
+    <string name="title_donate">Ko-fi で開発をサポートする</string>
+    <string name="title_download_location">ダウンロード先</string>
+    <!-- Messages -->
+    <string name="msg_downloads_empty">まだダウンロードはありません</string>
+    <string name="msg_downloads_empty_desc">ダウンロードしたトラックがここに表示されます</string>
+    <string name="msg_search_empty">音楽を検索</string>
+    <string name="msg_search_empty_desc">アーティスト、アルバム、トラック名を入力で検索を開始します</string>
+    <string name="msg_search_no_results">検索結果がありません</string>
+    <string name="msg_search_no_results_desc">別のキーワードで検索してください</string>
+    <string name="msg_search_no_results_filters">一致する結果はありません</string>
+    <string name="msg_search_no_results_filters_desc">フィルター設定を変更をお試しください</string>
+    <string name="msg_unknown_error">不明なエラーが発生しました</string>
+    <string name="msg_download_started">%1$s の音質でダウンロードを開始しました</string>
+    <string name="msg_aac_quality_note">AAC のトラックをダウンロードする際に様々な要因で 320 kbps ではなく 96 kbps が配信されることがあります</string>
+    <string name="msg_clear_data_subtitle">ダウンロード履歴とキャッシュを消去</string>
+    <string name="msg_reset_settings_subtitle">すべての設定をデフォルトにリセット</string>
+    <string name="msg_about_version">バージョン %s</string>
+    <string name="msg_panda_subtitle">by an exhausted panda running on spite and coffee</string>
+    <string name="msg_donate_subtitle">このプロジェクトの存続にご協力ください</string>
+    <string name="msg_file_not_found">ファイルがありません</string>
+    <string name="msg_no_player_available">利用可能な音楽プレーヤーがありません</string>
+    <string name="msg_file_open_failed">ファイルが開けませんでした</string>
+    <!-- Notifications -->
+    <string name="notification_channel_name">ダウンロード</string>
+    <string name="notification_channel_desc">トラックのダウンロード通知</string>
+    <string name="notification_downloading">%1$s をダウンロード中</string>
+    <string name="notification_processing">%1$s を処理中</string>
+    <string name="notification_complete">ダウンロードが完了しました</string>
+    <string name="notification_failed">ダウンロードに失敗しました</string>
+    <string name="notification_progress">ダウンロードが進行中です</string>
+    <!-- Dialogs -->
+    <string name="dialog_reset_settings_title">設定をリセットしますか？</string>
+    <string name="dialog_reset_settings_message">すべての設定をデフォルトにリセットしてもよろしいですか？この操作は元に戻すことはできません。</string>
+    <string name="dialog_clear_data_title">データを消去しますか？</string>
+    <string name="dialog_clear_data_message">ダウンロード履歴とキャッシュを消去してもよろしいですか？この操作は元に戻すことはできません。</string>
+    <!-- Actions -->
+    <string name="action_clear_search">消去</string>
+    <string name="action_retry">再試行</string>
+    <string name="action_done">完了</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_reset">リセット</string>
+    <string name="action_clear">消去</string>
+    <!-- Quality Labels -->
+    <string name="quality_label_hires">ハイレゾロスレス</string>
+    <string name="quality_label_hires_short">ハイレゾ</string>
+    <string name="quality_label_lossless">ロスレス</string>
+    <string name="quality_label_lossless_short">CDQ</string>
+    <string name="quality_label_dolby_ac3">Dolby Atmos (AC3)</string>
+    <string name="quality_label_dolby_ac3_short">Dolby EAC3</string>
+    <string name="quality_label_dolby_ac4">Dolby Atmos (AC4)</string>
+    <string name="quality_label_dolby_ac4_short">Dolby AC4</string>
+    <string name="quality_label_aac_320">AAC (320k)</string>
+    <string name="quality_label_aac_320_short">AAC 320</string>
+    <string name="quality_label_aac_96">AAC (96k)</string>
+    <string name="quality_label_aac_96_short">AAC 96</string>
+    <!-- Quality Descriptions -->
+    <string name="quality_desc_hires">24-bit/192kHz FLAC 形式の最大音質</string>
+    <string name="quality_desc_lossless">16-bit/44.1kHz FLAC 形式の CD 音質</string>
+    <string name="quality_desc_dolby_ac3">Dolby Atmos 空間オーディオの E-AC-3 形式</string>
+    <string name="quality_desc_dolby_ac4">Dolby Atmos 空間オーディオの AC-4 形式 (推奨)</string>
+    <string name="quality_desc_aac_320">320 KB/s の最高音質な非可逆圧縮</string>
+    <string name="quality_desc_aac_96">96 KB/s の標準音質な非可逆圧縮</string>
+    <!-- File Naming Format -->
+    <string name="file_format_artist_title_display">アーティスト - タイトル</string>
+    <string name="file_format_title_artist_display">タイトル - アーティスト</string>
+    <string name="file_format_title_only_display">タイトル</string>
+    <!-- Hints -->
+    <string name="hint_search">%1$s を検索…</string>
+    <!-- Tooltips -->
+    <string name="tooltip_filter">検索結果をフィルター</string>
+    <!-- Non-translatable URLs and identifiers -->
+</resources>
